@@ -13,11 +13,13 @@
 <div id="title">
     <h1>CODICI E COLORI</h1>
 </div>
-<label for="inRGB">Inserisci il codice di un colore:</label>
-<input id="inRGB" placeholder="codice RGB">
+<div id = "input">
+<label for="inNumber">Inserisci il codice di un colore:</label>
+<input id="inNumber" placeholder="codice RGB">
 <br>
 <label for="inText">Inserisci il testo da colorare:</label>
 <input id="inText" placeholder="testo">
+</div>
 <br>
 <button type="button" id="btnElabora" onclick="elabora()">Scrivi </button>
 <button type="button" id="btnAnnulla" onclick="annulla()">Annulla </button>
@@ -27,7 +29,7 @@
 </div>
 
 <div>
-    <p id="error">Errori</p>
+    <p id="error"></p>
 </div>
 
 <script src="script.js"></script>

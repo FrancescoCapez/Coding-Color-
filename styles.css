@@ -9,3 +9,17 @@ p {
 h1 {
     color:lightcoral;
 }
+#input {
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    border: #3d3a3a solid 3px;
+    border-radius: 5px;
+}
+#error  {
+color:lightcoral;
+}
+
+#outText {
+    color: black;
+}
